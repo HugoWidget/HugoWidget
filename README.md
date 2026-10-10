@@ -71,6 +71,7 @@ HugoWidget 是一个专注于 **Windows 平台下希沃教学设备辅助工具*
 - HugoUtils 与 HugoWidgets 为例外：HugoUtils 作为核心库，为方便开发者使用，仍然接受PR；HugoWidgets 未完工，需要社区的进一步支持。
 - 如果想对项目标星但显示 `You can't star HugoWidget/Repository`，可以在搜索页面重新尝试，或访问 [topic](https://github.com/topics/hugowidget)
 - 如果项目有功能性问题但仓库已经 Archive，你可以在此仓库提出你的问题。
+- 已知问题/未来规划/深度参与 [详见此](docs/MoreInfo.md)
 
 ## 免责声明
 
