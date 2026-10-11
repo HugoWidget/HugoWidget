@@ -24,7 +24,8 @@ HugoWidget 是一个专注于 **Windows 平台下希沃教学设备辅助工具*
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **基础信息获取**  | HugoInfo                                                     | 展示本机基础信息                                             |
 | **锁屏/屏保解除** | HugoLock, HugoLockAssistant, HugoDbg, HugoScreenSaver        | 实时隐藏锁屏窗口、通过 CDP 注入前端脚本、模拟点击解除屏保、置顶操作面板 |
-| **冰点还原管理**  | HugoFreezeApi, HugoFreezeDriver, HugoFrzDrvHook, HugoFreezeDisk, HugoFreezeFile | 查询/设置磁盘冻结状态，编辑配置文件                          |
+| **窗口管理**      | HugoWndRec                                                   | 后台抓取希沃窗口保存尺寸，实时关闭指定尺寸窗口               |
+| **冰点还原管理**  | HugoFreezeApi, HugoFreezeDriver, HugoFrzDrvHook, HugoFreezeDisk, HugoFreezeFile | 查询/设置磁盘冻结状态，编辑配置文件，管理冰点驱动            |
 | **希沃服务管控**  | HugoDisable, HugoLaunchTool, HugoInstaller, HugoProtect      | 禁用服务、启停进程、安装/卸载希沃管家、开关文件保护          |
 | **虚拟磁盘挂载**  | HugoMount                                                    | 挂载/卸载希沃的配置盘和日志盘                                |
 | **密码**          | HugoPassword, HugoBreak                                      | 破解希沃管理密码/锁屏密码（支持 V1/V2/V3）、修改dll以直接解除密码 |
@@ -35,6 +36,7 @@ HugoWidget 是一个专注于 **Windows 平台下希沃教学设备辅助工具*
 | **一站式控制台**  | HugoProgs                                                    | 整合上述所有功能的命令行菜单系统，支持 .hps 脚本自动执行     |
 | **图形界面版本**  | HugoWidgets                                                  | 提供友好 GUI                                                 |
 | **测试**          | HugoTest                                                     | 模拟希沃功能用于测试                                         |
+| **项目索引**      | awesome-seewo                                                | 列举 GitHub 上希沃相关项目以便于查阅                         |
 
 还有`HugoUtils`项目，为包含了上述几乎所有功能的公共库，上述大部分项目都依赖于`HugoUtils`和其包含的`WinUtils`项目
 
