@@ -28,9 +28,9 @@ HugoWidget 是一个专注于 **Windows 平台下希沃教学设备辅助工具*
 | **冰点还原管理**  | HugoFreezeApi, HugoFreezeDriver, HugoFrzDrvHook, HugoFreezeDisk, HugoFreezeFile | 查询/设置磁盘冻结状态，编辑配置文件，管理冰点驱动            |
 | **希沃服务管控**  | HugoDisable, HugoLaunchTool, HugoInstaller, HugoProtect      | 禁用服务、启停进程、安装/卸载希沃管家、开关文件保护          |
 | **虚拟磁盘挂载**  | HugoMount                                                    | 挂载/卸载希沃的配置盘和日志盘                                |
-| **密码**          | HugoPassword, HugoBreak                                      | 破解希沃管理密码/锁屏密码（支持 V1/V2/V3）、修改dll以直接解除密码 |
+| **密码**          | HugoPassword, HugoBreak, HugoScan                            | 破解希沃管理密码/锁屏密码（支持 V1/V2/V3）、修改dll以直接解除密码、扫描管家内存以获取密码 |
 | **DLL 注入**      | HugoInjector                                                 | 将指定 DLL 注入目标进程                                      |
-| **监控行为检测**  | HugoMonitor                                                  | 检测希沃管家的录屏/摄像行为并提示或拦截                      |
+| **监控行为检测**  | HugoMonitor, HugoCapture                                     | 检测希沃管家的录屏/摄像行为并提示或拦截                      |
 | **PE 维护工具集** | HugoWinPE (PEOutside + PEInside), PETools                    | 自动配置 BCD 启动项，进入 WinPE 后自动解除冰点、重命名服务、创建清理任务；并提供轻量级 PE 辅助工具 |
 | **其他**          | HugoLogs                                                     | 管理所有日志文件                                             |
 | **一站式控制台**  | HugoProgs                                                    | 整合上述所有功能的命令行菜单系统，支持 .hps 脚本自动执行     |
@@ -61,7 +61,7 @@ HugoWidget 是一个专注于 **Windows 平台下希沃教学设备辅助工具*
 
 - **编程语言**：C++ (主要)、Python、JavaScript
 - **构建工具**：Visual Studio 2022, PyInstaller
-- **图形界面**：Qt6 + Qlementine 风格
+- **图形界面**：Qt6
 
 ## 许可证
 
